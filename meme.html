@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaeMae <3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <style>
+        @keyframes bgChange {
+            0% { background-color: #f2e6ff; }
+            50% { background-color: #dcb0ff; }
+            100% { background-color: #f2e6ff; }
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            animation: bgChange 10s ease-in-out infinite;
+            font-family: 'Dancing Script', cursive;
+            overflow: hidden;
+            position: relative;
+        }
+
+        @keyframes floatEffect {
+            0% { transform: translateY(0px) translateX(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) translateX(10px) rotate(12deg); }
+            100% { transform: translateY(0px) translateX(0px) rotate(0deg); }
+        }
+
+        .deco {
+            position: absolute;
+            z-index: 1;
+            animation: floatEffect 6s ease-in-out infinite;
+            user-select: none;
+            filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.15));
+            opacity: 0.85;
+        }
+
+        .container {
+            text-align: center;
+            padding: 10px;
+            z-index: 10;
+            width: 100%;
+            margin-top: -2vh; 
+        }
+
+        img {
+            max-width: 82vw;
+            max-height: 48vh;
+            border: 8px solid white;
+            border-radius: 18px;
+            box-shadow: 0px 15px 45px rgba(108, 52, 131, 0.4);
+            background-color: white;
+        }
+
+        h1 {
+            color: #512e5f;
+            font-size: 2.8rem;
+            margin-top: 15px;
+            text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.9);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="deco" style="top: 2%; left: 5%; font-size: 40px;">🦋</div>
+    <div class="deco" style="top: 5%; left: 20%; font-size: 20px; animation-delay: 1s;">✨</div>
+    <div class="deco" style="top: 2%; right: 5%; font-size: 40px; animation-delay: 1.5s;">🦋</div>
+    <div class="deco" style="top: 5%; right: 20%; font-size: 20px; animation-delay: 2.5s;">✨</div>
+    <div class="deco" style="top: 1%; left: 50%; font-size: 18px; animation-delay: 3s;">⭐</div>
+
+    <div class="deco" style="top: 35%; left: 2%; font-size: 30px; animation-delay: 0.8s;">🌸</div>
+    <div class="deco" style="top: 55%; left: 1%; font-size: 35px; animation-delay: 3s;">🦋</div>
+    
+    <div class="deco" style="top: 35%; right: 2%; font-size: 30px; animation-delay: 2.2s;">⭐</div>
+    <div class="deco" style="top: 55%; right: 1%; font-size: 35px; animation-delay: 0.5s;">🦋</div>
+
+    <div class="deco" style="bottom: 30%; left: 8%; font-size: 26px;">🌸</div>
+    <div class="deco" style="bottom: 30%; right: 8%; font-size: 26px; animation-delay: 2.7s;">✨</div>
+
+    <div class="deco" style="bottom: 12%; left: 4%; font-size: 45px; animation-delay: 0.6s;">🦋</div>
+    <div class="deco" style="bottom: 5%; left: 25%; font-size: 28px; animation-delay: 3.2s;">🌸</div>
+    <div class="deco" style="bottom: 15%; left: 50%; font-size: 22px;">✨</div>
+    <div class="deco" style="bottom: 5%; right: 25%; font-size: 28px; animation-delay: 1.9s;">🦋</div>
+    <div class="deco" style="bottom: 12%; right: 4%; font-size: 45px; animation-delay: 2.3s;">🌸</div>
+    
+    <div class="deco" style="bottom: 1%; left: 2%; font-size: 25px;">⭐</div>
+    <div class="deco" style="bottom: 1%; right: 2%; font-size: 25px;">✨</div>
+
+    <div class="container">
+        <img src="https://i.imgur.com/HIqreff.jpg" alt="Happy Birthday Mae">
+        <h1>Happy 18th Birthday Mae!</h1>
+    </div>
+
+</body>
+</html>
